@@ -97,16 +97,40 @@ h1 {
 .todoList li .icons {
   margin: 10px;
 }
-/* Edit and delete icon styles */
+
 .edit-icon,
 .delete-icon {
   margin-right: 10px;
   cursor: pointer;
-  color: #ff0000; /* Adjust color as needed */
+  color: #ff0000;
 }
 
-/* Hover effect */
+
 .edit-icon:hover,
 .delete-icon:hover {
-  color: #3b120b; /* Adjust hover color as needed */
+  color: #3b120b;
+}
+
+.git {
+  bottom: 20px;
+  margin: 20px;
+  justify-content: space-around;
+  font-size: 30px;
+  z-index: 1000;
+}
+
+.git a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.git a:hover {
+  color: #ff6347;
+}
+.git span {
+  display: block;
+  font-size: 18px; 
+  text-align: center;
 }
