@@ -12,7 +12,6 @@
 
   </head>
   <body>
-
     <div class="container">
       <h1>Todo List</h1>
       <img src="images/todo.png" class="img-responsive" alt="" />
@@ -21,6 +20,14 @@
       <form class="form">
         <input type="text" placeholder="Add a new task" class="form_input">
         <button type="submit">Add</button>
+        <div class="button-group">
+          <!-- Button for reminder -->
+          <button type="button" id="reminderButton">Reminder</button>
+          <!-- Button for scheduling -->
+          <button type="button" id="scheduleButton">Schedule</button>
+          <!-- Button for adding to calendar -->
+          <button type="button" id="calendarButton">Add to Calendar</button>
+        </div>
       </form>
       <div class="row">
         <ul class="todoList">
@@ -28,12 +35,7 @@
         </ul>
       </div>
     </div>
-  
-    <script src="/script/todo.js" async defer></script>
-  </body>
-  </html>
-   
-    
     <script src="script/todo.js" async defer></script>
+
   </body>
 </html>
